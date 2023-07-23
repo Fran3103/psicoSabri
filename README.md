@@ -1,3 +1,1 @@
-![imagen del proyecto][def]
-
-[def]: (../psicosabri/src/Imagenes/Desktop.png)
+![imagen del proyecto](https://github.com/Fran3103/psicoSabri/blob/master/src/Imagenes/Desktop.png?raw=true)
