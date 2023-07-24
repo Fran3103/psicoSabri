@@ -1,0 +1,58 @@
+.contenedor{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -100px auto;
+    
+}
+
+.contenedorlogo{
+    width: 575px;
+    height: 405px;
+
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 2rem;
+    color: var(--Secundario-fonts);
+    text-shadow: 0 3px  6px black;
+    
+}
+
+.lista li {
+    cursor: pointer;
+    &&:hover{
+        text-shadow: 0 3px  1px black;
+        transition: 300ms all ease-in-out;
+    }
+}
+
+
+.redes svg{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+a{
+    
+    color: var(--Secundario-fonts);
+    &&:hover{
+        color: #face67;
+        transition: 300ms all ease-in-out;
+    }
+}
