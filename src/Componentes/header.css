@@ -1,0 +1,23 @@
+.container-md img{
+    margin: 50px auto;
+    height: 600px;
+}
+
+
+
+.descripcion{
+  
+    text-align: left;
+    padding: 10px 20px;
+    color: red;
+    font-size: 1.2rem;
+
+    
+}
+
+
+.imagenDescripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
