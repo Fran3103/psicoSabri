@@ -1,0 +1,171 @@
+.container-fluid{
+    position: relative;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+}
+
+.Lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 2rem;
+    color: var(--Secundario-fonts);
+    text-shadow: 0 3px  6px black;
+    margin-top: 14px;
+    
+}
+
+
+
+
+.Lista li {
+    cursor: pointer;
+    &&:hover{
+        text-shadow: 0 3px  1px black;
+        transition: 300ms all ease-in-out;
+    }
+}
+
+
+.redes{
+    
+    margin-top: -5px;
+}
+a{
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: 0 10px;
+    color: var(--Secundario-fonts);
+    &&:hover{
+        color: #face67;
+        transition: 300ms all ease-in-out;
+    }
+}
+
+
+@media screen and (max-width:1417px) {
+
+    .Lista{font-size: 1.7rem;} 
+    
+     
+    a{
+        font-size: 2rem;
+       }
+
+    
+ }
+
+
+@media screen and (max-width:1280px) {
+
+    .Lista{font-size: 1.5rem;} 
+     a{
+     font-size: 1.8rem;
+    }
+ 
+    .logo{
+     margin-left: 20px;
+    }
+     
+ }
+ 
+ @media screen and (max-width:1150px ) {
+ 
+     .Lista{font-size: 1rem;} 
+     a{
+         font-size: 1.4rem;
+     }
+     .logo{
+         margin-left: 50px;
+        }
+     
+ }
+ 
+ @media screen and (max-width:960px ) {
+ 
+     .Lista{display: none;} 
+     a{
+         font-size: 2rem;
+         
+     }
+
+     .redes{
+        margin-right: 90px;
+     }
+     .logo{
+         margin-left: 80px;
+         width: 150%;
+         height: 150%;
+        }
+ }
+ 
+
+ @media screen and (max-width:767px ) {
+ 
+    .Lista{display: none;} 
+    a{
+        font-size: 2.9rem;
+        
+    }
+
+    .redes{
+        position: absolute;
+        top: 55%;
+        left: 75%;
+    }
+
+    
+    .logo{
+        margin-left: 100px;
+        width: 150%;
+        height: 150%;
+        margin-top: -25%;
+       }
+}
+
+
+@media screen and (max-width:475px ) {
+ 
+    .Lista{display: none;} 
+    a{
+        font-size: 2.3rem;
+        
+    }
+
+  
+
+    
+    .logo{
+        margin-left: 80px;
+        width: 150%;
+        height: 150%;
+        margin-top: -20%;
+       }
+}
+
+
+@media screen and (max-width:375px ) {
+ 
+    .Lista{display: none;} 
+    a{
+        font-size: 2.3rem;
+        
+    }
+
+    .redes{
+        top: 57%;
+    }
+    
+    .logo{
+        margin-left: 60px;
+        width: 170%;
+        height: 150%;
+        margin-top: -24%;
+       }
+}

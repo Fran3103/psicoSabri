@@ -9,14 +9,136 @@
 
 .lineas{
     position: absolute;
-    top: -100px;
+    top: -200px;
     left: 200px;
     transform: rotate(180deg);
-    height: 600px;
+    height: 500px;
 }
 
 .circulos{
     position: absolute;
     top: -300px;
     right: -250px;
+}
+
+@media screen and (max-width:1380px ) {
+    .lineas{
+        position: absolute;
+        top: -160px;
+        left: 200px;
+        transform: rotate(180deg);
+        height: 400px;
+        
+    }
+    
+    .circulos{
+        position: absolute;
+        top: -300px;
+        right: -250px;
+        height: 700px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:1150px ) {
+    .lineas{
+        position: absolute;
+        top: -160px;
+        left: 200px;
+        transform: rotate(180deg);
+        height: 400px;
+        
+    }
+    
+    .circulos{
+        position: absolute;
+        top: -300px;
+        right: -250px;
+        height: 600px;
+    }
+    
+    
+}
+
+@media screen and (max-width:1080px ) {
+    .lineas{
+        position: absolute;
+        top: -160px;
+        left: 200px;
+        transform: rotate(180deg);
+        height: 400px;
+        
+    }
+    
+    .circulos{
+        position: absolute;
+        top: -200px;
+        right: -200px;
+        height: 500px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:767px ) {
+    
+    .lineas{
+        position: absolute;
+        top: -160px;
+        left: 200px;
+        transform: rotate(180deg);
+        height: 400px;
+        
+    }
+    
+    .circulos{
+        position: absolute;
+        top: -200px;
+        right: -800px;
+        height: 500px;
+    }
+    
+}
+
+@media screen and (max-width:580px ) {
+    
+    .lineas{
+        position: absolute;
+        top: -160px;
+        left: 160px;
+        transform: rotate(180deg);
+        height: 400px;
+        
+    }
+    
+    .circulos{
+        position: absolute;
+        top: -200px;
+        right: -600px;
+        height: 500px;
+    }
+    
+}
+
+@media screen and (max-width:375px ) {
+    
+    .lineas{
+        position: absolute;
+        top: -160px;
+        left: 100px;
+        transform: rotate(180deg);
+        height: 400px;
+        
+    }
+    
+    .circulos{
+        position: absolute;
+        top: -200px;
+        right: -600px;
+        height: 500px;
+    }
+    
 }
